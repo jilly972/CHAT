@@ -1,0 +1,19 @@
+{
+  "name": "CHAT",
+  "version": "1.0.0",
+  "description": "chat app @spring2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jilly972/CHAT.git"
+  },
+  "author": "jilly972",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jilly972/CHAT/issues"
+  },
+  "homepage": "https://github.com/jilly972/CHAT"
+}

@@ -3,8 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Chat</title>
+    <script src="/socket.io/socket.io.js"></script>
   </head>
   <body>
-
+    <div class="message">
+      <p>
+        Chatroom
+      </p>
+      <form class="usermessage" action="index.html" method="post">
+        <textarea name="name" placeholder=" write something" rows="8" cols="40"></textarea>
+        <input type="submit" name="submitmsg" value="Send">
+      </form>
+    </div>
+    <script>
+      var socket = io.connect();
+      socket.emit('message',{value:'leggo'});
+      socket.on('from_server', function(data) {
+        console.log(data.value);
+      });
+    </script>
   </body>
 </html>

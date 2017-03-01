@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jilly972/CHAT/issues"
   },
-  "homepage": "https://github.com/jilly972/CHAT"
+  "homepage": "https://github.com/jilly972/CHAT",
+  "dependencies": {
+    "socket.io": "^1.7.3"
+  }
 }

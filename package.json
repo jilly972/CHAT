@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jilly972/CHAT",
   "dependencies": {
+    "express": "^4.10.2",
     "socket.io": "^1.7.3"
   }
 }
